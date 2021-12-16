@@ -1,5 +1,3 @@
-
-
 h1, h2{
     text-align: center;
 }
@@ -18,4 +16,34 @@ h1, h2{
 
 #author-image{
     width: 18em;
+}
+
+.cards-container{
+    display: grid;
+    width: 70vw;
+    gap: 1em;
+    border: black 1px solid;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.cards-row{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.card{
+    border: solid 1px black;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img{
+    width: 9em;
 }
